@@ -32,10 +32,13 @@ h1 {
   line-height: 5rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  color: var(--veryDarkBlue);
 }
 p {
   margin-top: 2rem;
   font-size: 1.8rem;
+  line-height: 3rem;
+  color: var(--veryDarkBlue);
 }
 
 h1,
@@ -55,7 +58,7 @@ img {
 }
 
 /* Utilites */
-input[type="text"] {
+input[type="email"] {
   padding: 1rem 2rem;
   width: 60%;
   font-family: "Open Sans", sans-serif;
@@ -63,7 +66,6 @@ input[type="text"] {
 
 .btn {
   display: inline-block;
-  width: 30%;
   padding: 1rem 3rem;
   text-align: center;
   border-radius: 3px;
@@ -80,7 +82,6 @@ input[type="text"] {
 .flex {
   margin-top: 5rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -99,6 +100,7 @@ input[type="text"] {
   max-width: 1400px;
   padding: 2rem;
 }
+
 .main-header {
   margin-top: 5rem;
   display: flex;
@@ -146,7 +148,7 @@ input[type="text"] {
   width: 20px;
   margin-left: 1rem;
   position: absolute;
-  top: 3px;
+  top: 2px;
 }
 #second-content .testimonial {
   margin-top: 5rem;
@@ -171,4 +173,92 @@ input[type="text"] {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+#second-content .avatar-info {
+  margin-left: 1rem;
+}
+.avatar-info .fullname {
+  font-weight: 700;
+}
+.avatar-info h5 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Access Section */
+#access-section {
+  margin-top: 20rem;
+  background: var(--desarutedBlue);
+}
+#access-section p,
+#access-section h1 {
+  color: white;
+}
+.access-container {
+  width: 100%;
+  margin: auto;
+  max-width: 1400px;
+  padding: 10rem 2rem;
+}
+
+#access-section a {
+  margin-top: 2rem;
+  width: 200px;
+}
+
+#access-section form {
+  display: flex;
+  flex-direction: column;
+}
+#footer {
+  background: var(--veryDarkBlue);
+}
+#footer .footer-container {
+  width: 100%;
+  margin: auto;
+  max-width: 1400px;
+  padding: 10rem 2rem;
+}
+.footer-container .logo {
+  width: 150px;
+}
+.footer-container .icon {
+  width: 15px;
+}
+.footer-content {
+  margin: 2rem 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone li span {
+  font-size: 1.5rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+.footer-content a {
+  color: white;
+  font-size: 1.5rem;
+}
+.about-us li,
+.contact-us li {
+  padding-bottom: 2rem;
+}
+.footer-content .social-media {
+  display: flex;
+}
+.footer-content .social-media li i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content .social-media li {
+  padding-left: 2rem;
 }
