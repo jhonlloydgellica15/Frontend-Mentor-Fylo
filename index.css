@@ -1,0 +1,66 @@
+:root {
+  /* Primary */
+  --veryDarkBlue: hsl(243, 87%, 12%);
+  --desarutedBlue: hsl(238, 22%, 44%);
+
+  /* Accent */
+  --brightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+
+  /* Neutral */
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 3rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+/* Header section */
+.main-container {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem;
+  background: red;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 30px;
+  white-space: nowrap;
+  font-size: 1.3rem;
+}
